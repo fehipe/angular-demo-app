@@ -9,7 +9,7 @@ import { SwupdaterService } from './sw-updater.service';
 
 export class AppComponent {
 
-  title = 'angular-demo-app DEVELOP4';
+  title = 'angular-demo-app DEVELOP5';
 
   constructor(private sw: SwupdaterService) { }
 
