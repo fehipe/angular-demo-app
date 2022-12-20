@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-  title = 'angular-demo-app DEVELOP10';
+  title = 'angular-demo-app DEVELOP-SERVICIOS';
 
   
 }
