@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { SwupdaterService } from './sw-updater.service';
+import { CheckForUpdateService } from './check-for-update.service';
+import { PromptUpdateService } from './promp-update.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,7 @@ import { SwupdaterService } from './sw-updater.service';
       registrationStrategy: 'registerWhenStable:30000'
     })
   ],
-  providers: [SwupdaterService],
+  providers: [SwupdaterService, CheckForUpdateService, PromptUpdateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
