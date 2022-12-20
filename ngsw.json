@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1671556869432,
+  "timestamp": 1671557418019,
   "index": "/angular-demo-app/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/angular-demo-app/favicon.ico",
         "/angular-demo-app/index.html",
-        "/angular-demo-app/main.123eb211e9abbb72.js",
+        "/angular-demo-app/main.7833fb9040c0bbd7.js",
         "/angular-demo-app/manifest.webmanifest",
         "/angular-demo-app/polyfills.e071308e298f525e.js",
         "/angular-demo-app/runtime.40407781c67d86a5.js",
@@ -52,8 +52,8 @@
     "/angular-demo-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/angular-demo-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/angular-demo-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/angular-demo-app/index.html": "9a714e89d3d69a233fded99a07c729cef842bc14",
-    "/angular-demo-app/main.123eb211e9abbb72.js": "d4c20109fa609f534137faed41749954ca824bdd",
+    "/angular-demo-app/index.html": "9725b77d92ed5d20ff4fe0341f0e29d69b25920e",
+    "/angular-demo-app/main.7833fb9040c0bbd7.js": "0bbbb1b5e1aacafde59055b5ac2ddbd25c377199",
     "/angular-demo-app/manifest.webmanifest": "1a884f0136fd40cb970f042c527c16756d6ffa2b",
     "/angular-demo-app/polyfills.e071308e298f525e.js": "afa7c561eca4777632e35bdbdff7326048cf33b8",
     "/angular-demo-app/runtime.40407781c67d86a5.js": "ce79db1ccb393439956eb62064faec5d62f14057",
