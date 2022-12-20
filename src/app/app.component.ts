@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { SwUpdate } from '@angular/service-worker';
+import { interval } from 'rxjs';
 import { SwupdaterService } from './sw-updater.service';
 
 @Component({
@@ -9,11 +11,13 @@ import { SwupdaterService } from './sw-updater.service';
 
 export class AppComponent {
 
-  title = 'angular-demo-app DEVELOP6';
+  title = 'angular-demo-app DEVELOP7';
 
-  constructor(private sw: SwupdaterService) { }
+  constructor(private sw: SwupdaterService, public swUpdate: SwUpdate) { }
 
   ngOnInit() {
-    this.sw.checkForUpdates();
+    if (this.swUpdate.isEnabled) {
+      interval(6).subscribe(() => this.sw.checkForUpdates());
+    }
   }
 }
