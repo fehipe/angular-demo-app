@@ -11,13 +11,13 @@ import { SwupdaterService } from './sw-updater.service';
 
 export class AppComponent {
 
-  title = 'angular-demo-app DEVELOP8';
+  title = 'angular-demo-app DEVELOP9';
 
   constructor(private sw: SwupdaterService, public swUpdate: SwUpdate) { }
 
   ngOnInit() {
     if (this.swUpdate.isEnabled) {
-      // interval(6).subscribe(() => this.sw.checkForUpdates());
+      interval(10 * 1000).subscribe(() => this.sw.checkForUpdates());
     }
   }
 }
